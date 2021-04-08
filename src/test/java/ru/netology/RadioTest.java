@@ -10,10 +10,10 @@ public class RadioTest {
     public void shouldSwitchNextRadioStation() {
         Radio radio = new Radio();
         radio.setMaxRadiostation(9);
-        radio.setCurrentRadiostation(5);
+        radio.setCurrentRadiostation(6);
         assertEquals(9, radio.getMaxRadiostation());
         radio.nextRadiostation();
-        assertEquals(6, radio.getCurrentRadiostation());
+        assertEquals(7, radio.getCurrentRadiostation());
 
     }
     @Test
