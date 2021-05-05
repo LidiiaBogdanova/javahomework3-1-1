@@ -10,6 +10,11 @@ public class Radio {
     int maxVolume;
 
 
+    public Radio(int maxRadiostation, int maxVolume) {
+        this.maxRadiostation = maxRadiostation;
+        this.maxVolume = maxVolume;
+    }
+
     public int getCurrentRadiostation() {
         return currentRadiostation;
     }
